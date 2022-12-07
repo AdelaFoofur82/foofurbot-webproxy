@@ -1,0 +1,11 @@
+{
+    "port": 2000,
+    "ssl-port": 2001,
+    "query-parameter": "foofurbot-proxy-url",
+    "cookie-name": "foofurbot-proxy",
+    "ssl": {
+        "key": "/path/to/privkey.pem",
+        "cert": "/path/to/fullchain.pem",
+        "ca": "/path/to/chain.pem"
+    }
+}
